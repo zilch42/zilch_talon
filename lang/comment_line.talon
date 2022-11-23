@@ -1,4 +1,5 @@
 tag: user.code_comment_line
+mode: command
 -
 comment: user.code_comment_line_prefix()
 # implemented at App level for toggle

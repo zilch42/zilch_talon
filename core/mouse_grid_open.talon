@@ -1,4 +1,5 @@
 tag: user.mouse_grid_showing
+mode: command
 -
 <user.number_key>:
     user.grid_narrow(number_key)

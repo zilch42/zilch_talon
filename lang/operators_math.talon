@@ -1,4 +1,5 @@
 tag: user.code_operators_math
+mode: command
 -
 
 # math operators
@@ -21,6 +22,11 @@ long less [or] (equal | equals): user.code_operator_less_than_or_equal_to()
 (single | logical) or: user.code_operator_or()
 element and: user.code_operator_bitwise_and()
 element or: user.code_operator_bitwise_or()
+
+# set operators
+# TO DO implement for R
+(op | is) in: user.code_operator_in()
+(op | is) not in: user.code_operator_not_in()
 
 # TODO: This operator should either be abstracted into a function or removed.
 long colon: " : "

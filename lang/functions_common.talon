@@ -1,4 +1,5 @@
 tag: user.code_functions_common
+mode: command
 -
 # toggle funk: user.code_toggle_functions()
 # funk <user.code_common_function>:

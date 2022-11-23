@@ -5,6 +5,7 @@ app: vscode
 
 reload window: user.vscode("workbench.action.reloadWindow")
 close window: user.vscode("workbench.action.closeWindow")
+
 comment (line | lines): user.vscode("editor.action.commentLine")
 
 # jupyter

@@ -7,6 +7,7 @@ and win.title: /RStudio Workbench/
 -
 
 tag(): user.line_commands
+tag(): user.common_variables
 # tag(): user.find_and_replace
 # TO DO
 # multiple cursors

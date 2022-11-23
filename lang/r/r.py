@@ -5,6 +5,7 @@ ctx = Context()
 
 ctx.matches = r"""
 tag: user.r
+mode: command
 """
 
 ctx.lists["user.code_common_function"] = {
