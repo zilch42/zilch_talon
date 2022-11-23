@@ -33,3 +33,17 @@ twenty seventeen to twenty one: "2017-21"
 twenty eighteen to twenty two: "2018-22"
 
 hmmm: ""
+
+# common variables
+year of publication: "YearPub"
+document type: "DocType"
+docs reviews: "DocsAR"
+docs proceedings: "DocsARP"
+year one: "Year1"
+year five: "Year5"
+year ten: "Year10"
+NCI: "NCI"
+Nectar: 'Nicta == "N"'
+rest BUs: "resBUs"
+ESICat: "ESICat"
+you tee: "UT"

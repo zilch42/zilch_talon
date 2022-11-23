@@ -10,3 +10,7 @@ why do we have both edit.find and user.find?
 ZILCH CHANGES
 ---------------------------------
 Test firefox close tab. Do i need win.py
+core/custom context keys
+core/formatters
+plugin
+misc
