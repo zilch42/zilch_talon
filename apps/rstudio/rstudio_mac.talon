@@ -1,5 +1,6 @@
 os: mac
 app: RStudio
+mode: command
 -
 
 tag(): user.line_commands

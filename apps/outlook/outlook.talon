@@ -1,5 +1,6 @@
 os: windows
 and app: Microsoft Outlook
+mode: command
 -
 archive: key(alt h o 1)
 new e-mail: key(ctrl-n)
