@@ -8,6 +8,7 @@ mod = Module()
 ctx = Context()
 ctx.matches = r"""
 tag: user.python
+tag: user.jupyter
 mode: command
 """
 ctx.lists["user.code_common_function"] = {

@@ -1,5 +1,3 @@
-* Delete tags/line_commands.talon
-
 * Delete core/edit/edit.talon
 
 * Delete core/numbers/numbers.talon
@@ -12,8 +10,10 @@
 
 * Delete lang/tags/comment_line.talon
 
+* Delete tags/line_commands/line_commands.talon
+
 * Add following to core/modes/language_modes.py
-    "python": "ipynb",      # ZILCH
+    "jupyter": "ipynb",      # ZILCH
 
 * Replace the following paths in plugin/screenshot/screenshot.py
     default_folder = ""

@@ -1,4 +1,5 @@
 tag: user.python
+tag: user.jupyter
 mode: command
 -
 # Replaces commands in knausj_talon 
