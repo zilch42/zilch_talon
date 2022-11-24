@@ -40,7 +40,7 @@ named arg {user.code_parameter_name}: user.code_insert_named_argument(code_param
 
 
 # R specific commands
-chain:
+(chain | pipe that):
     key(end)
     " %>% "
 inner chain: " %>% "

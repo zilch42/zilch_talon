@@ -4,6 +4,8 @@
 
 * Delete core/keys/keys.py
 
+* Delete core/keys/keys.talon
+
 * Delete core/text/formatters.py
 
 * Delete core/system_command.py
