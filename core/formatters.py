@@ -1,3 +1,4 @@
+# Completely replaces knausj_talon 
 import logging
 import re
 from typing import Union

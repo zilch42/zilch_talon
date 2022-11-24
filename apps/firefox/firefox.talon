@@ -3,6 +3,7 @@ app: firefox
 tag(): browser
 tag(): user.tabs
 
+# Additional commands in knausj_talon 
 
 #surfing keys shortcut
 half down: key(d)

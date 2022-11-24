@@ -1,3 +1,4 @@
+# Completely replaces knausj_talon 
 from talon import Context, Module, actions, app
 
 default_alphabet = "arch brov char delta echo foxy goof hotel india julia kilo lima mike novakeen oscar prime quebec romeo sierra tango uniform victor whiskey exray yank zulu".split(

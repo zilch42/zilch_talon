@@ -6,8 +6,9 @@ app: chrome
 and win.title: /RStudio Workbench/
 mode: command
 -
-tag(): user.code_imperative
+# Replaces commands in knausj_talon 
 
+tag(): user.code_imperative
 tag(): user.code_comment_line
 tag(): user.code_data_bool
 tag(): user.code_data_null

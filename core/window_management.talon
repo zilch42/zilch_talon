@@ -1,3 +1,8 @@
+mode: command
+-
+
+# Mostly replacing knausj_talon
+
 (new|open) window: app.window_open()
 window next: app.window_next()
 window last: app.window_previous()

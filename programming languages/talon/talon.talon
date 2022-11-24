@@ -1,6 +1,9 @@
 tag: user.talon
 mode: command
 -
+
+# Additional commands in knausj_talon 
+
 tag(): user.code_operators_math
 tag(): user.code_operators_assignment
 tag(): user.code_comment_line
@@ -12,6 +15,7 @@ tag(): user.code_functions_common
 # tag(): user.talon_populate_lists
 
 dot talon: insert(".talon")
+mode command: "mode: command"
 #defintion blocks for the context
 action block: user.insert_between("action(", "):")
 setting block: insert("settings():\n\t")

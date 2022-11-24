@@ -6,6 +6,8 @@ app: chrome
 and win.title: /RStudio Workbench/
 -
 
+# Replacing knausj_talon 
+
 tag(): user.line_commands
 # tag(): user.find_and_replace
 # TO DO
@@ -66,8 +68,8 @@ unfold all: key(shift-alt-o)
 go to line: key(shift-alt-g)
 move up: key(alt-up)
 move down: key(alt-down)
-curse source: key(ctrl-alt-up)
-curse dunce: key(ctrl-alt-down)
+(cursor|curse) source: key(ctrl-alt-up)
+(cursor|curse) dunce: key(ctrl-alt-down)
 insert oxygen: key(ctrl-alt-shift-r)
 help that: key(f1)
 show source: key(f2)

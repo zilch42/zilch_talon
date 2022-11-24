@@ -1,6 +1,9 @@
 tag: user.code_comment_line
 mode: command
 -
+
+# Replaces commands in knausj_talon 
+
 comment: user.code_comment_line_prefix()
 # implemented at App level for toggle
 # comment line:

@@ -2,6 +2,9 @@ os: windows
 and app: Microsoft Outlook
 mode: command
 -
+
+# Replacing knausj_talon 
+
 archive: key(alt h o 1)
 new e-mail: key(ctrl-n)
 calendar: key(ctrl-2)

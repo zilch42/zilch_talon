@@ -1,5 +1,10 @@
 tag: user.tabs
+mode: command
 -
+
+# Mostly replacing knausj_talon
+# May have two delete file in knausj_talon if it causes problems 
+
 (open | new) tab: app.tab_open()
 (previous | left) tab: app.tab_previous()
 (next | right) tab: app.tab_next()

@@ -2,6 +2,7 @@
 app: vscode
 -
 
+# Additional commands in knausj_talon 
 
 reload window: user.vscode("workbench.action.reloadWindow")
 close window: user.vscode("workbench.action.closeWindow")

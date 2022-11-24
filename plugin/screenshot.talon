@@ -1,3 +1,8 @@
+mode: command
+-
+# Additional commands in knausj_talon
+# May have two delete that file if it's too confusing 
+
 # save to desktop
 ^grab screen save$:                     user.screenshot()
 ^grab screen <number_small> save$:      user.screenshot(number_small)
