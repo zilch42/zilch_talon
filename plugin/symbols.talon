@@ -1,22 +1,22 @@
-question mark: "?"
-(downscore | underscore): "_"
-double dash: "--"
+# Additional in knausj_talon 
 
-triple quote: "'''"
-(triple ticky | triple back tick | gravy):
-    insert("```")
 (dot dot | dotdot | double dot): ".."
-(ellipses | three dots): "..."
 (comma and | spamma | boom): ", "
 
+(downscore | underscore): "_"
 plus: "+"
 ampersand: "&"
+question mark: "?"
+slash: "/"
+
+# long
 long plus: " + "
 long minus: " - "
 long pipe: " | "
 long equals: " = "
 long ampersand: " & "
 
+# sentence backspaces
 (four|full) stop: 
     key(backspace . space)
 (four|full) comma:
@@ -28,50 +28,7 @@ long ampersand: " & "
 (four|full) semper:
     key(backspace ; space)
 
-arrow: "->"
-dub arrow: "=>"
-slash: "/"
-new line: "\\n"
-
-# carriage return: "\\r"
-# line feed: "\\r\\n"
-# empty dubstring:
-#     '""'
-#     key(left)
-# empty escaped (dubstring|dub quotes):
-#     '\\"\\"'
-#     key(left)
-#     key(left)
-# empty string:
-#     "''"
-#     key(left)
-# empty escaped string:
-#     "\\'\\'"
-#     key(left)
-#     key(left)
-
-# hug paren:
-# 	insert("()")
-# 	key(left)
-# hug (square | square brackets):
-# 	insert("[]")
-# 	key(left)
-# hug curly:
-# 	insert("{}")
-# 	key(left)
-# hug percent:
-# 	insert("%%")
-# 	key(left)
-# hug quote:
-# 	insert('""')
-# 	key(left)
-# hug tick:
-# 	insert("``")
-# 	key(left)
-# hug (angle | angles):
-#         insert("<>")
-#         key(left)
-
+# hugs
 # these might not copy paste properly
 (angle that | hug angle):
     text = edit.selected_text()

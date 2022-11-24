@@ -36,9 +36,10 @@ def format_phrase(m: Union[str, Phrase], formatters: str):
     if isinstance(m, str):
         words = m.split(" ")
     else:
-        # FIXME: I believe this is no longer necessary. -rntz, 2022-02-10
-        if m.words[-1] == "over":
-            m.words = m.words[:-1]
+        # # I believe this is no longer necessary. -rntz, 2022-02-10
+        # # TODO: I've commented this out, remove if nobody has issues -rntz, 2022-06-21
+        # if m.words[-1] == "over":
+        #     m.words = m.words[:-1]
         words = actions.dictate.replace_words(actions.dictate.parse_words(m))
 
     result = last_phrase_formatted = format_phrase_without_adding_to_history(
@@ -257,7 +258,7 @@ class Actions:
         actions.insert(text)
         return text
 
-    def get_formatters_words():
+    def get_formatters_words() -> dict:
         """returns a list of words currently used as formatters, and a demonstration string using those formatters"""
         formatters_help_demo = {}
         for name in sorted(set(formatters_words.keys())):

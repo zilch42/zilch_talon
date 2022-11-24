@@ -1,0 +1,25 @@
+* Delete tags/line_commands.talon
+
+* Delete core/edit/edit.talon
+
+* Delete core/numbers/numbers.talon
+
+* Delete core/keys/keys.py
+
+* Delete core/text/formatters.py
+
+* Delete core/system_command.py
+
+* Add following to core/modes/language_modes.py
+    "python": "ipynb",      # ZILCH
+
+* Replace the following paths in plugin/screenshot/screenshot.py
+    default_folder = ""
+    if app.platform == "windows":       # ZILCH
+        default_folder = os.path.expanduser(os.path.join("~", r"OneDrive - CSIRO\\Desktop"))
+    if not os.path.isdir(default_folder):
+        default_folder = os.path.join("~", "OneDrive - CSIRO\\Desktop")
+
+* Make the following changes in settings.talon
+    user.mouse_continuous_scroll_amount = 120
+    user.grids_put_one_bottom_left = 0

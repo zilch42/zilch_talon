@@ -1,6 +1,9 @@
 tag: user.line_commands
 -
-#this defines some common line commands. More may be defined that are ide-specific.
+
+# knausj_talon file removed
+
+# this defines some common line commands. More may be defined that are ide-specific.
 lend: edit.line_end()
 bend: edit.line_start()
 go [line] <number>: edit.jump_line(number)
@@ -67,8 +70,7 @@ drag down <number> until <number>:
     edit.line_swap_down()
 (clone|duplicate) (line|that): edit.line_clone()
 
-# no implementation
-# select camel left: user.extend_camel_left()
-# select camel right: user.extend_camel_right()
-# go camel left: user.camel_left()
-# go camel right: user.camel_right()
+select camel left: user.extend_camel_left()
+select camel right: user.extend_camel_right()
+go camel left: user.camel_left()
+go camel right: user.camel_right()
