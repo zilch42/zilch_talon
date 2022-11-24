@@ -31,3 +31,5 @@
 * Make the following changes in settings.talon
     user.mouse_continuous_scroll_amount = 120
     user.grids_put_one_bottom_left = 0
+
+* Replace all of core/keys/keys.py with keys.py.bk from zilch_talon
