@@ -187,7 +187,7 @@ class Actions:
 
     def homophones_show_auto():
         """Show homophones for selection, or current word if selection is empty."""
-        text = actions.edit.selected_text()
+        text = actions.edit.selected_text().strip() 
         if text:
             actions.user.homophones_show(text)
         else:
