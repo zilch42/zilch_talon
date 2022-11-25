@@ -145,7 +145,6 @@ punctuation_words = {
     "hashtag": "#",
     "number sign": "#",
     "percent sign": "%",
-    "at sign": "@",
     "and sign": "&",
     "ampersand": "&",
 }

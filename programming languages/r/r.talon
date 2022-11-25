@@ -75,6 +75,10 @@ sequence data frame:
 install bibliotecR: 
     'remotes::install_local("W:/bibliotecR_0..tar.gz", dependencies = "Imports")'
     key(left:35)
+next quote: 
+    key(right)
+    ', "'
+
 
 # ggplot
 fill CSIRO: "scale_fill_manual(values = pal)"
