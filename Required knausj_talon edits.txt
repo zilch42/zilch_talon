@@ -10,6 +10,8 @@
 
 * Delete core/system_command.py
 
+* Delete plugin/mouse/mouse.talon
+
 * Delete lang/tags/comment_line.talon
 
 * Delete tags/line_commands/line_commands.talon
