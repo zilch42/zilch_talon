@@ -227,6 +227,9 @@ ctx.lists["user.code_common_function"] = {
     "tick": "tic", 
     "tok": "toc", 
 
+    # OpenAlex
+    "oa fetch": "oa_fetch", 
+
 }
 
 ctx.lists["user.code_libraries"] = {

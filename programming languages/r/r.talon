@@ -129,7 +129,7 @@ figure reference:
 
 # quarto functions
 cue {user.quarto_chunk_options} [{user.quarto_logical}]:
-    edit.delete_line()
+    edit.select_line()
     "#| "
     insert(quarto_chunk_options)
     ": "
