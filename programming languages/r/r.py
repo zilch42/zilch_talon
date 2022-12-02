@@ -319,6 +319,7 @@ ctx.lists["user.quarto_chunk_options"] = {
     "include": "include", 
     "figure width": "fig.width", 
     "figure height": "fig.height", 
+    "echo": "echo", 
 }
 
 mod.list("quarto_logical")
