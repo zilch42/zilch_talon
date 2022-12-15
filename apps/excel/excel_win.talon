@@ -208,3 +208,7 @@ disable dragon add-in:
 # custom commands
 yes: key(ctrl-v down)
 no: key(down)
+grab dunce: key(ctrl-shift-down)
+grab source: key(ctrl-shift-up)
+grab lease: key(ctrl-shift-left)
+grab ross: key(ctrl-shift-right)
