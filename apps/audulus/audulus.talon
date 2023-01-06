@@ -19,6 +19,7 @@ group: key(cmd-g)
 send [to] back: key(ctrl-alt-cmd-down)
 (show|hide|snap) [to] grid: key(cmd-')
 (edit|arrange) (mode|modules): key(cmd-e)
+delete: key(backspace)
 
 # nodes
 node {user.nodes}: user.insert_node(nodes)
