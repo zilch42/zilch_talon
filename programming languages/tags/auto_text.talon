@@ -24,6 +24,7 @@ economics and business: "Economics & Business"
 long and: " AND "
 long or: " OR "
 long not: " NOT "
+long near: " NEAR "
 
 # year ranges
 twenty fourteen to eighteen: "2014-18"

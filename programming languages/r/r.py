@@ -185,7 +185,8 @@ ctx.lists["user.code_common_function"] = {
     # readr, readxl, and other non-base R reading/writing
     "read CSV": "read_csv",
     "read RDS": "read_rds",
-    "read excel": "read_xlsx",
+    "read excel": "read_excel",
+    "read excel S": "read.xlsx",
     "write CSV": "write_csv",
     "write RDS": "write_rds",
 
@@ -261,6 +262,7 @@ ctx.lists["user.code_libraries"] = {
     "R color brewer": "RColorBrewer",
     "R markdown": "rmarkdown",
     "read R": "readr",
+    "read excel": "readxl", 
     "reticulate": "reticulate", 
     "shiny alert": "shinyalert",
     "shiny fluent": "shiny.fluent", 
