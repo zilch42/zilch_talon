@@ -14,7 +14,7 @@ and app.exe: EXCEL.EXE
 
 apps.excel = """
 os: mac
-and app.bundle: org.microsoft.excel
+and app.bundle: com.microsoft.Excel
 """
 
 @mod.capture(rule="<user.letters> <number>")

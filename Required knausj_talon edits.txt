@@ -35,3 +35,7 @@
     user.grids_put_one_bottom_left = 0
 
 * Replace all of core/keys/keys.py with keys.py.bk from zilch_talon
+
+* Change 1pass mac to 
+    def password_show():
+        actions.key("cmd-shift-\\")
