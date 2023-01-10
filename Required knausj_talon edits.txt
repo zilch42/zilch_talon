@@ -39,3 +39,9 @@
 * Change 1pass mac to 
     def password_show():
         actions.key("cmd-shift-\\")
+
+* Replace def select_word() in core/edit/edit_win.py with:
+    def select_word():
+        actions.edit.left()
+        actions.edit.word_right()
+        actions.edit.extend_word_left()
